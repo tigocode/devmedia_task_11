@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.topo, .container-topo, .container-contato, .rodape {
+  margin: 0 auto;
+  background-color: #2f86d6;
+}
+.topo-logo div h1, .contato-logo div h1 {
+  color: #000000;
+}
+.topo div p, .topo-links a, .contato-logo div p, .info p {
+  color: #fff;
+}
+.container-contato {
+  padding: 50px 0;
+}
+.footer {
+  padding-top: 25px;
+}
+.topo-links a:hover {
+  color: #211133;
+}
+.container-tabela { 
+  width: 1024px;
+  margin: 80px auto;
+  text-align: center;
+
+  line-height: 50px;
+  background-color: #fff;
+}
+.container-tabela thead {
+  background-color: #f1f3f7;
+  font-size: 12px;
+}
+.container-tabela thead p {
+  font-weight: 500;
+  color: #a89f9f;
+}
+.container-tabela thead h3 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #000000;
+}
+.container-tabela tbody {
+  font-size: 14px;
+}
+.container-tabela tbody td {
+  border: 0.5px solid #f1f3f7;
+}
+.container-tabela thead tr th:first-of-type {
+  background-color: #fff;
+}
+.container-tabela tbody tr td:first-of-type {
+  padding-left: 15px;
+  background-color: #f1f3f7;
+  text-align: justify;
+  font-size: 14px;
+  font-weight: 500;
+}
+.container-tabela tbody tr .marcador-azul {
+  padding-top: 10px;
+}
+.container-tabela tbody tr .marcador-azul:after {
+  content: '';
+  width: 15px;
+  height: 15px;
+
+  display: inline-block;
+  background-color: #2f86d6;
+  border-radius: 50%;
+  text-align: center;
+}

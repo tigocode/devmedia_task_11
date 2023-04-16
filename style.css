@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.secao-limitada {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+
+  background-color: #fff;
+}
+.container-topo {
+  height: 110px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.topo-logo, .contato-logo {
+  display: flex;
+}
+.topo-logo img, .contato-logo img {
+  width: 72px;
+}
+.topo-logo div, .contato-logo div {
+  margin-left: 16px;
+}
+.topo-logo div h1, .contato-logo div h1 {
+  font-size: 32px;
+  text-align: start;
+
+  color: #000000;
+}
+.topo-logo div p, .contato-logo div p{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: start;
+
+  color: #2f86d9;
+}
+.topo-links a {
+  padding: 0 6px;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+
+  color: #233032;
+}
+.topo-links a:hover {
+  color: #2f86d6;
+}
+.secao-banner, .container-banner {
+  background-color: #2f86d6;
+}
+.container-banner {
+  position: relative;
+  padding: 140px 0;
+}
+.container-banner img {
+  width: 50%;
+  position: absolute;
+  top: calc(140px - 11%);
+  right: 0;
+}
+.container-texto-banner {
+  color: #fff;
+  width: 470px;
+}
+.container-texto-banner p {
+  font-size: 16px;
+  line-height: 26px;
+  word-spacing: 3px;
+}
+.container-texto-banner h2 {
+  font-size: 28px;
+  line-height: 40px;
+  margin: 20px 0;
+}
+.secao-primeiro-anuncio {
+  padding: 35px 0;
+  background-color: #23303e;
+}
+.container-anuncio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #23303e;
+  color: #fff;
+}
+.container-anuncio a {
+  width: 250px;
+  height: 60px;
+
+  position: relative;
+
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  background-color: #2f86d6;
+  border-radius: 4px;
+  color: #fff;
+}
+.container-anuncio a img {
+  width: 18px;
+  position: absolute;
+
+  top: 25px;
+  left: 15px;
+  margin-left: 10px;
+}
+.container-anuncio a span {
+  position: absolute;
+
+  top: 18px;
+  right: 10px;
+  margin-right: 20px;
+  font-weight: 700;
+}
+.container-anuncio div h3 {
+  font-size: 24px;
+  margin-bottom: 13px;
+}
+.container-anuncio div p {
+  font-size: 16px;
+}
+.secao-informacoes {
+  background-color: #fff;
+}
+.container-informacoes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-informacoes h2 {
+  padding: 60px 50px;
+  font-size: 32px;
+  text-align: center;
+}
+.container-informacoes span, .container-planos span {
+  color: #2f86d6;
+}
+.container-informacoes div {
+  margin: 40px auto;
+  text-align: center;
+}
+.container-informacoes div img {
+  width: 100px;  
+}
+.container-informacoes div h3 {
+  font-size: 18px;
+  color: #000000;
+  padding: 20px 0;
+}
+.container-informacoes div p {
+  font-size: 16px;
+  color: #000000;
+}
+.container-planos h3 {
+  padding: 60px 0 20px 0;
+  font-size: 32px;
+  text-align: center;
+}
+.tabela { 
+  width: 1024px;
+  margin: 50px auto;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 0 40px 18px #2f86d6;
+}
+.tabela h3 {
+  padding-top: 20px;
+  font-size: 18px;
+  color: #000000;
+}
+.tabela img {
+  width: 100px;
+  padding-top: 20px;
+}
+.tabela th p {
+  width: 150px;
+  margin: 15px auto;
+  font-size: 13px;
+  color: #a89f9f;
+}
+.tabela tbody {
+  font-size: 16px;
+}
+.tabela tbody tr td {
+  padding: 5px 0;
+}
+.tabela tbody tr:nth-child(odd) {
+  background-color: #f6f6f6;
+}
+.tabela tbody tr:nth-child(even) {
+  background-color: #f1f3f7;
+}
+.tabela tfoot tr td {
+  padding-bottom: 20px;
+  background-color: #f6f6f6;
+}
+.segundo h3 {
+  width: 550px;
+  font-size: 24px;
+}
+.secao-segundo-anuncio {
+  padding: 35px 0;
+}
+.secao-anuncio, .secao-segundo-anuncio {
+  background-color: #2f86d6;
+}
+.secao-anuncio a {
+  background-color: #233032;
+}
+.container-contato {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  font-weight: bold;
+}
+.container-contato div {
+  text-align: center;
+  padding: 10px 0;
+}
+.container-contato div p {
+  padding: 6px 0;
+}
+.footer {
+  background-color: #f1f3f7;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.footer p span {
+  color: #2f86d6;
+}
